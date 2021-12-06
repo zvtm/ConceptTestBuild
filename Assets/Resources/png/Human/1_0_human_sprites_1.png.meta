@@ -4,16 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: 1_0_human_sprites_1_0
+    second: right_walk
   - first:
       213: 21300002
-    second: 1_0_human_sprites_1_1
+    second: right_walk_1
   - first:
       213: 21300004
-    second: 1_0_human_sprites_1_2
+    second: right_walk_2
   - first:
       213: 21300006
-    second: 1_0_human_sprites_1_3
+    second: right_walk_3
+  - first:
+      213: 3138785754626415558
+    second: idle
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,7 +142,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1_0_human_sprites_1_0
+      name: right_walk
       rect:
         serializedVersion: 2
         x: 14
@@ -160,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_0_human_sprites_1_1
+      name: right_walk_1
       rect:
         serializedVersion: 2
         x: 28
@@ -181,7 +184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_0_human_sprites_1_2
+      name: right_walk_2
       rect:
         serializedVersion: 2
         x: 42
@@ -202,7 +205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_0_human_sprites_1_3
+      name: right_walk_3
       rect:
         serializedVersion: 2
         x: 56
@@ -222,10 +225,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: idle
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 78
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb509a83053f8b20800000000000000
+      internalID: 3138785754626415558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c22997eb4b5ded64a806ad0f08a2d0f5
     internalID: 0
     vertices: []
     indices: 

@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 3138785754626415558
     second: idle
+  - first:
+      213: 9168267641052614709
+    second: 1_0_human_sprites_1_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +92,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -101,7 +104,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -234,7 +237,7 @@ TextureImporter:
         width: 15
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,6 +245,27 @@ TextureImporter:
       bones: []
       spriteID: 6cb509a83053f8b20800000000000000
       internalID: 3138785754626415558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_0_human_sprites_1_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 43
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53056ae08da3c3f70800000000000000
+      internalID: 9168267641052614709
       vertices: []
       indices: 
       edges: []

@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
     {
         if (_moveState != MoveState.Jump)
         {
-            _rigidbody.velocity = (Vector3.up * JumpForce * Time.deltaTime);
+            _rigidbody.velocity = (Vector2.up * JumpForce * Time.deltaTime);
             _moveState = MoveState.Jump;
             _animatorController.Play("Jump");
         }
@@ -61,6 +61,7 @@ public class Player : MonoBehaviour
     {
         _moveState = MoveState.Idle;
         _animatorController.Play("Idle");
+        _rigidbody.velocity = Vector3.zero;
     }
     void Start()
     {
@@ -82,7 +83,7 @@ public class Player : MonoBehaviour
         else if (_moveState == MoveState.Walk)
         {
             _rigidbody.velocity = ((_directionState == DirectionState.Right ? Vector2.right : -Vector2.right)
-                * WalkSpeed * Time.deltaTime);
+                * WalkSpeed );
             _walkTime -= Time.deltaTime;
             if(_walkTime <= 0)
             {

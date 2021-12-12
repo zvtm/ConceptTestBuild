@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
     {
         if (_moveState != MoveState.Jump)
         {
-            _rigidbody.velocity = (Vector3.up * JumpForce * Time.deltaTime);
+            _rigidbody.velocity = (Vector2.up * JumpForce * Time.deltaTime);
             _moveState = MoveState.Jump;
             _animatorController.Play("Jump");
         }

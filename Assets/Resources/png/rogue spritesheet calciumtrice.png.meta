@@ -64,28 +64,28 @@ TextureImporter:
     second: rogue spritesheet calciumtrice_19
   - first:
       213: -8173229291607555050
-    second: rogue spritesheet calciumtrice_20
+    second: Walk_1
   - first:
       213: -1574801216718396442
-    second: rogue spritesheet calciumtrice_21
+    second: Walk_2
   - first:
       213: 4509141254935129065
-    second: rogue spritesheet calciumtrice_22
+    second: Walk_4
   - first:
       213: -9026385818214418127
-    second: rogue spritesheet calciumtrice_23
+    second: Walk_5
   - first:
       213: 3620380933677076040
-    second: rogue spritesheet calciumtrice_24
+    second: Walk_6
   - first:
       213: 1523697580108533302
-    second: rogue spritesheet calciumtrice_25
+    second: Walk_7
   - first:
       213: -2673334059459328523
-    second: rogue spritesheet calciumtrice_26
+    second: Walk_9
   - first:
       213: -127731266334160053
-    second: rogue spritesheet calciumtrice_27
+    second: Walk_10
   - first:
       213: 6504205103068044912
     second: rogue spritesheet calciumtrice_28
@@ -148,10 +148,10 @@ TextureImporter:
     second: rogue spritesheet calciumtrice_47
   - first:
       213: 4333291863293833710
-    second: rogue spritesheet calciumtrice_98
+    second: Walk_3
   - first:
       213: -535672106635009168
-    second: rogue spritesheet calciumtrice_99
+    second: Walk_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -661,7 +661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_20
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 7
@@ -682,7 +682,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_21
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 38
@@ -703,7 +703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_22
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 102
@@ -724,7 +724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_23
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 133
@@ -745,7 +745,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_24
+      name: Walk_6
       rect:
         serializedVersion: 2
         x: 165
@@ -766,7 +766,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_25
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 197
@@ -787,7 +787,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_26
+      name: Walk_9
       rect:
         serializedVersion: 2
         x: 264
@@ -808,7 +808,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_27
+      name: Walk_10
       rect:
         serializedVersion: 2
         x: 296
@@ -1249,13 +1249,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_98
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 71
         y: 225
         width: 15
-        height: 31
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1270,13 +1270,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_99
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 232
         y: 225
         width: 14
-        height: 31
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

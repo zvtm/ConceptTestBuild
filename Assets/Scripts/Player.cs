@@ -61,6 +61,7 @@ public class Player : MonoBehaviour
     {
         _moveState = MoveState.Idle;
         _animatorController.Play("Idle");
+        _rigidbody.velocity = Vector3.zero;
     }
     void Start()
     {
@@ -82,7 +83,7 @@ public class Player : MonoBehaviour
         else if (_moveState == MoveState.Walk)
         {
             _rigidbody.velocity = ((_directionState == DirectionState.Right ? Vector2.right : -Vector2.right)
-                * WalkSpeed * Time.deltaTime);
+                * WalkSpeed );
             _walkTime -= Time.deltaTime;
             if(_walkTime <= 0)
             {

@@ -136,8 +136,6 @@ GameObject:
   - component: {fileID: 4723622}
   - component: {fileID: 4723628}
   - component: {fileID: 4723627}
-  - component: {fileID: 4723625}
-  - component: {fileID: 4723626}
   - component: {fileID: 4723629}
   m_Layer: 0
   m_Name: Player
@@ -230,33 +228,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4723625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4723621}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f19d9aa6de19ba44871bb6bd5e0fe55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 4723626}
---- !u!114 &4723626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4723621}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80e3bd42de3a4564aa97bf6c8d391d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WalkSpeed: 3
-  JumpForce: 10
 --- !u!61 &4723627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -317,6 +288,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 2
+  _jumpForce: 4
+  onGround: 0
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  GroundCheck: {fileID: 0}
 --- !u!1 &205789422
 GameObject:
   m_ObjectHideFlags: 0

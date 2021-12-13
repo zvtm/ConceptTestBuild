@@ -20,12 +20,14 @@ public class ControllPlayer : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
+        groundCheckRadius = GroundCheck.GetComponent<CircleCollider2D>().radius;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
         Jump();
+        CheckingGround();
     }
 
     private void Move()
@@ -64,11 +66,11 @@ public class ControllPlayer : MonoBehaviour
     public bool onGround;
     public LayerMask Ground;
     public Transform GroundCheck;
-    private float GroundCheckRadius;
+    private float groundCheckRadius;
 
     private void CheckingGround()
     {
-
+        onGround = Physics2D.OverlapCircle(GroundCheck.position, groundCheckRadius, Ground);
     }
 
 }

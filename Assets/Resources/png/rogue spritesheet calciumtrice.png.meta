@@ -34,34 +34,34 @@ TextureImporter:
     second: Idle_10
   - first:
       213: 3969796122111285496
-    second: rogue spritesheet calciumtrice_10
+    second: Idle2_1
   - first:
       213: 475938694979906518
-    second: rogue spritesheet calciumtrice_11
+    second: Idle2_2
   - first:
       213: 6836292865167795779
-    second: rogue spritesheet calciumtrice_12
+    second: Idle2_3
   - first:
       213: -4925668297082526490
-    second: rogue spritesheet calciumtrice_13
+    second: Idle2_4
   - first:
       213: -2980818053596175638
-    second: rogue spritesheet calciumtrice_14
+    second: Idle2_5
   - first:
       213: 7295481766992251620
-    second: rogue spritesheet calciumtrice_15
+    second: Idle2_6
   - first:
       213: 4447656334914676806
-    second: rogue spritesheet calciumtrice_16
+    second: Idle2_7
   - first:
       213: 7949353882820474596
-    second: rogue spritesheet calciumtrice_17
+    second: Idle2_8
   - first:
       213: 7688646093858258346
-    second: rogue spritesheet calciumtrice_18
+    second: Idle2_9
   - first:
       213: 8548328772407598325
-    second: rogue spritesheet calciumtrice_19
+    second: Idle2_10
   - first:
       213: -8173229291607555050
     second: Walk_1
@@ -88,64 +88,64 @@ TextureImporter:
     second: Walk_10
   - first:
       213: 6504205103068044912
-    second: rogue spritesheet calciumtrice_28
+    second: Attack_1
   - first:
       213: -5993165718493795983
-    second: rogue spritesheet calciumtrice_29
+    second: Attack_2
   - first:
       213: 3899561794467131041
-    second: rogue spritesheet calciumtrice_30
+    second: Attack_3
   - first:
       213: -6015530178300719308
-    second: rogue spritesheet calciumtrice_31
+    second: Attack_4
   - first:
       213: -4782766263147400445
-    second: rogue spritesheet calciumtrice_32
+    second: Attack_5
   - first:
       213: 1656052368250503057
-    second: rogue spritesheet calciumtrice_33
+    second: Attack_6
   - first:
       213: 4312581028200972244
-    second: rogue spritesheet calciumtrice_34
+    second: Attack_7
   - first:
       213: 473582314228009678
-    second: rogue spritesheet calciumtrice_35
+    second: Attack_8
   - first:
       213: -1576771275925330512
-    second: rogue spritesheet calciumtrice_36
+    second: Attack_9
   - first:
       213: -2232991552427865341
-    second: rogue spritesheet calciumtrice_37
+    second: Attack_10
   - first:
       213: 634845021935076350
-    second: rogue spritesheet calciumtrice_38
+    second: Death_1
   - first:
       213: 6905086729500539036
-    second: rogue spritesheet calciumtrice_39
+    second: Death_2
   - first:
       213: 1159851867713267194
-    second: rogue spritesheet calciumtrice_40
+    second: Death_3
   - first:
       213: 3555691535226452000
-    second: rogue spritesheet calciumtrice_41
+    second: Death_4
   - first:
       213: -4047873824860592427
-    second: rogue spritesheet calciumtrice_42
+    second: Death_5
   - first:
       213: 8092951608377906783
-    second: rogue spritesheet calciumtrice_43
+    second: Death_6
   - first:
       213: 7237210618298375788
-    second: rogue spritesheet calciumtrice_44
+    second: Death_7
   - first:
       213: -8540090815866178950
-    second: rogue spritesheet calciumtrice_45
+    second: Death_8
   - first:
       213: 1344287740928000449
-    second: rogue spritesheet calciumtrice_46
+    second: Death_9
   - first:
       213: -1994038622111654132
-    second: rogue spritesheet calciumtrice_47
+    second: Death_10
   - first:
       213: 4333291863293833710
     second: Walk_3
@@ -451,7 +451,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_10
+      name: Idle2_1
       rect:
         serializedVersion: 2
         x: 9
@@ -472,7 +472,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_11
+      name: Idle2_2
       rect:
         serializedVersion: 2
         x: 41
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_12
+      name: Idle2_3
       rect:
         serializedVersion: 2
         x: 73
@@ -514,7 +514,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_13
+      name: Idle2_4
       rect:
         serializedVersion: 2
         x: 105
@@ -535,7 +535,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_14
+      name: Idle2_5
       rect:
         serializedVersion: 2
         x: 137
@@ -556,7 +556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_15
+      name: Idle2_6
       rect:
         serializedVersion: 2
         x: 169
@@ -577,7 +577,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_16
+      name: Idle2_7
       rect:
         serializedVersion: 2
         x: 201
@@ -598,7 +598,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_17
+      name: Idle2_8
       rect:
         serializedVersion: 2
         x: 233
@@ -619,7 +619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_18
+      name: Idle2_9
       rect:
         serializedVersion: 2
         x: 265
@@ -640,7 +640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_19
+      name: Idle2_10
       rect:
         serializedVersion: 2
         x: 297
@@ -829,7 +829,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_28
+      name: Attack_1
       rect:
         serializedVersion: 2
         x: 9
@@ -850,7 +850,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_29
+      name: Attack_2
       rect:
         serializedVersion: 2
         x: 41
@@ -871,7 +871,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_30
+      name: Attack_3
       rect:
         serializedVersion: 2
         x: 72
@@ -892,7 +892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_31
+      name: Attack_4
       rect:
         serializedVersion: 2
         x: 106
@@ -913,7 +913,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_32
+      name: Attack_5
       rect:
         serializedVersion: 2
         x: 139
@@ -934,7 +934,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_33
+      name: Attack_6
       rect:
         serializedVersion: 2
         x: 171
@@ -955,7 +955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_34
+      name: Attack_7
       rect:
         serializedVersion: 2
         x: 202
@@ -976,7 +976,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_35
+      name: Attack_8
       rect:
         serializedVersion: 2
         x: 234
@@ -997,7 +997,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_36
+      name: Attack_9
       rect:
         serializedVersion: 2
         x: 265
@@ -1018,7 +1018,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_37
+      name: Attack_10
       rect:
         serializedVersion: 2
         x: 297
@@ -1039,7 +1039,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_38
+      name: Death_1
       rect:
         serializedVersion: 2
         x: 9
@@ -1060,7 +1060,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_39
+      name: Death_2
       rect:
         serializedVersion: 2
         x: 41
@@ -1081,7 +1081,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_40
+      name: Death_3
       rect:
         serializedVersion: 2
         x: 74
@@ -1102,7 +1102,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_41
+      name: Death_4
       rect:
         serializedVersion: 2
         x: 106
@@ -1123,7 +1123,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_42
+      name: Death_5
       rect:
         serializedVersion: 2
         x: 138
@@ -1144,7 +1144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_43
+      name: Death_6
       rect:
         serializedVersion: 2
         x: 172
@@ -1165,7 +1165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_44
+      name: Death_7
       rect:
         serializedVersion: 2
         x: 204
@@ -1186,7 +1186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_45
+      name: Death_8
       rect:
         serializedVersion: 2
         x: 234
@@ -1207,7 +1207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_46
+      name: Death_9
       rect:
         serializedVersion: 2
         x: 263
@@ -1228,7 +1228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rogue spritesheet calciumtrice_47
+      name: Death_10
       rect:
         serializedVersion: 2
         x: 294
